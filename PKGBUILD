@@ -1,4 +1,4 @@
-# Maintainer: Arseniy Lebedev <esseswann@gmail.com> && Abdalaziz Rashid <abdalaziz.rashid@edu.misis.ru> & Maxim Kochurov <maxim.v.kochurov@gmail.com>
+# Maintainer: Arseniy Lebedev <esseswann@gmail.com> & Abdalaziz Rashid <abdalaziz.rashid@edu.misis.ru> & Maxim Kochurov <maxim.v.kochurov@gmail.com>
 
 author=esseswann
 pkgname=geh
@@ -41,5 +41,3 @@ package() {
     cp -a --no-preserve=ownership * "$pkgdir/usr/share/$pkgname"
     chmod -R 777 "$pkgdir/usr/share/$pkgname"
 }
-
-
